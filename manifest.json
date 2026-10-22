@@ -1,6 +1,6 @@
 {
-  "versionCode": 34,
-  "versionName": "1.0.5",
-  "notes": "Aurora Premium 1.0.5 - Подобрено разположение на иконите и логото Foreca, запазени празнични теми и подобрен механизъм за актуализации.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.0.5-official/app-release.apk"
+  "versionCode": 35,
+  "versionName": "1.0.6",
+  "notes": "Aurora Premium 1.0.6 - Температурна тенденция, интелигентен индикатор за валежи, автоматично нощно приглушаване и Premium празнични анимации. Запазени Foreca, Weather Underground и сезонните теми.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.0.6-official/app-release.apk"
 }
