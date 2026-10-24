@@ -1,6 +1,6 @@
 {
-  "versionCode": 57,
-  "versionName": "1.0.7",
-  "notes": "Aurora Premium 1.0.7 — Foreca Nowcast: известия за значителни валежи, Aurora Radar без цветната точка, 8 стила на датата, Smart Forecast под датата, нова Premium празнична лента с поправен трибагреник и отделен Pixel Shift. Актуализацията запазва настройките.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.0.7-official/app-release.apk"
+  "versionCode": 60,
+  "versionName": "1.0.9.1",
+  "notes": "Aurora Premium 1.0.9.1 — нов дискретен кехлибарен знак ⚠ пред значимите предупреждения на Foreca Smart Forecast за дъжд, сняг и смесени валежи. При спокойно време предупреждението остава скрито. Запазени са Glow визията, часовникът, прогнозата, празничните украси и всички настройки.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.0.9.1-official/Aurora-Premium-1.0.9.1-Glow-SIGNED.apk"
 }
