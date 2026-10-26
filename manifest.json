@@ -1,6 +1,6 @@
 {
-  "versionCode": 66,
-  "versionName": "1.1.0",
-  "notes": "Aurora Premium 1.1.0 — официална подписана версия за Android TV и Rocktek G2. Анимирани метеорологични икони, плавно въртене на слънчевите лъчи, независими настройки за анимации и ефекти дъжд/сняг, Soft Cyan Premium икона пред Разград, нов банер AURORA PREMIUM, поправка на повтарящото се предложение за инсталиране на APK. Запазени са Foreca Smart Forecast, старите икони, празничните теми и настройките.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.1.0-official/Aurora-Premium-1.1.0-Glow-SIGNED.apk"
+  "versionCode": 81,
+  "versionName": "1.2.0",
+  "notes": "Aurora Premium 1.2.0 Final — нов Atmosphere пакет с 11 реалистични 3D метеорологични икони и по-меко слънчево сияние. Прозрачна тричасова прогноза Foreca, Smart Forecast под датата, лунни фази, Cinema Mode и подобрени анимации. Запазени са досегашните стилове, празници и настройки.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.0-official/Aurora-Premium-1.2.0-FINAL-SIGNED.apk"
 }
