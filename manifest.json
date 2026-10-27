@@ -1,6 +1,6 @@
 {
-  "versionCode": 81,
-  "versionName": "1.2.0",
-  "notes": "Aurora Premium 1.2.0 Final — нов Atmosphere пакет с 11 реалистични 3D метеорологични икони и по-меко слънчево сияние. Прозрачна тричасова прогноза Foreca, Smart Forecast под датата, лунни фази, Cinema Mode и подобрени анимации. Запазени са досегашните стилове, празници и настройки.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.0-official/Aurora-Premium-1.2.0-FINAL-SIGNED.apk"
+  "versionCode": 82,
+  "versionName": "1.2.1",
+  "notes": "Aurora Premium 1.2.1 — Google Edition: Google Weather за метеорологичните условия и 3-часовата прогноза, Aurora Smart Forecast непосредствено под часовника и обозначение Google Maps. Запазени са температурата от VEVOR, Atmosphere 3D иконите, празничните ефекти и потребителските настройки.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.1-google-edition/Aurora_Google_Edition_121.apk"
 }
