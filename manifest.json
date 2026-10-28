@@ -1,6 +1,6 @@
 {
-  "versionCode": 94,
-  "versionName": "1.2.13",
-  "notes": "Aurora Premium 1.2.13 — официална стабилна версия. Целият часовник и панелът са преместени с 12 px надолу. Smart Forecast показва значими предупреждения директно под часовника и разпознава наближаващ краткотраен дъжд с висока вероятност. Добавени са анимирани Outline метеоикони, почасова прогноза под температурата и усъвършенстван дизайн на датата. Запазени са Google Weather, VEVOR температурата и настройките.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.13-official/Aurora-Premium-1.2.13-LowerPanel-SIGNED.apk"
+  "versionCode": 95,
+  "versionName": "1.2.14",
+  "notes": "Aurora Premium 1.2.14 — добавено е ръчно преместване на целия часовник с дистанционното (нагоре, надолу, наляво и надясно). Стъпка 5 dp или фина настройка 1 dp, запазване на позицията след рестарт и бутон за връщане към стандартното положение. Pixel Shift остава активен. Запазени са Smart Forecast под часовника, предупрежденията за дъжд, анимираните Outline икони, почасовата прогноза под температурата, VEVOR данните и останалите настройки.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.14-official/Aurora-Premium-1.2.14-ManualPosition-SIGNED.apk"
 }
