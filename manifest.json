@@ -1,6 +1,6 @@
 {
-  "versionCode": 86,
-  "versionName": "1.2.5",
-  "notes": "Aurora Premium 1.2.5 — логото на Google Maps е преместено леко наляво (6 px), а датата е повдигната с 10 px, без застъпване на логото. Запазени са Google Weather, температурата от VEVOR, Smart Forecast, Atmosphere 3D иконите, анимациите и настройките.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.5-date-maps-alignment/Aurora-Premium-1.2.5-DateMaps-SIGNED.apk"
+  "versionCode": 94,
+  "versionName": "1.2.13",
+  "notes": "Aurora Premium 1.2.13 — официална стабилна версия. Целият часовник и панелът са преместени с 12 px надолу. Smart Forecast показва значими предупреждения директно под часовника и разпознава наближаващ краткотраен дъжд с висока вероятност. Добавени са анимирани Outline метеоикони, почасова прогноза под температурата и усъвършенстван дизайн на датата. Запазени са Google Weather, VEVOR температурата и настройките.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.13-official/Aurora-Premium-1.2.13-LowerPanel-SIGNED.apk"
 }
