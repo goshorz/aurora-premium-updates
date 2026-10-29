@@ -1,6 +1,6 @@
 {
-  "versionCode": 98,
-  "versionName": "1.2.17",
-  "notes": "Aurora Premium 1.2.17 — официална стабилна версия. Добавена е настройка за показване или скриване на „Разград“ и иконата за местоположение. При скрит град датата се приближава автоматично към температурата, без празен ред, и е допълнително повдигната с 8 px (4 px при включена почасова прогноза). Запазени са ръчното позициониране на целия панел, Smart Forecast под часовника, анимираните Outline икони, Pixel Shift и всички останали настройки.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.17-official/Aurora-Premium-1.2.17-DateLift8px-SIGNED.apk"
+  "versionCode": 108,
+  "versionName": "1.2.27",
+  "notes": "Aurora Premium 1.2.27 — Flip Christmas Edition. Нов елегантен коледен гирлянд само за прозрачния Flip часовник: борови клонки, топло светещи лампички и фини украшения. Elegant Garland се включва автоматично от 16 до 23 декември; Premium Garland със златна звезда — от 24 до 26 декември. Добавен е ръчен избор за незабавен тест или изключване. Запазени са плавното прелистване, датата на един ред, Smart Forecast, настройките и разширеното преместване надясно от 1.2.26. Подписана официална актуализация; инсталира се без деинсталиране.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.27-official/Aurora-Premium-1.2.27-FlipChristmas-SIGNED.apk"
 }
