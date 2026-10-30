@@ -1,6 +1,6 @@
 {
-  "versionCode": 108,
-  "versionName": "1.2.27",
-  "notes": "Aurora Premium 1.2.27 — Flip Christmas Edition. Нов елегантен коледен гирлянд само за прозрачния Flip часовник: борови клонки, топло светещи лампички и фини украшения. Elegant Garland се включва автоматично от 16 до 23 декември; Premium Garland със златна звезда — от 24 до 26 декември. Добавен е ръчен избор за незабавен тест или изключване. Запазени са плавното прелистване, датата на един ред, Smart Forecast, настройките и разширеното преместване надясно от 1.2.26. Подписана официална актуализация; инсталира се без деинсталиране.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.27-official/Aurora-Premium-1.2.27-FlipChristmas-SIGNED.apk"
+  "versionCode": 123,
+  "versionName": "1.2.42",
+  "notes": "Aurora Premium 1.2.42 — Classic Garland. Възстановен е компактният коледен гирлянд от версия 1.2.40. Запазени са Flip часовникът, датата, времето и останалите настройки. Подписана актуализация без необходимост от деинсталиране.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.42-official/Aurora-Premium-1.2.42-ClassicGarland-SIGNED.apk"
 }
