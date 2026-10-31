@@ -1,6 +1,6 @@
 {
-  "versionCode": 123,
-  "versionName": "1.2.42",
-  "notes": "Aurora Premium 1.2.42 — Classic Garland. Възстановен е компактният коледен гирлянд от версия 1.2.40. Запазени са Flip часовникът, датата, времето и останалите настройки. Подписана актуализация без необходимост от деинсталиране.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.42-official/Aurora-Premium-1.2.42-ClassicGarland-SIGNED.apk"
+  "versionCode": 129,
+  "versionName": "1.2.48",
+  "notes": "Aurora Premium 1.2.48 — Digital Premium: датата и редът с температурата са приближени с 6 px. Запазени са компактните LED цифри и метеорологичната визуализация. Smart Forecast 2.0 остава в отделен ред с пренасяне на дълги предупреждения. Официална подписана актуализация, без деинсталиране и без загуба на настройки.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.48-official/Aurora-Premium-1.2.48-TightForecastSafe-SIGNED.apk"
 }
