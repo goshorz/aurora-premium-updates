@@ -1,6 +1,6 @@
 {
-  "versionCode": 129,
-  "versionName": "1.2.48",
-  "notes": "Aurora Premium 1.2.48 — Digital Premium: датата и редът с температурата са приближени с 6 px. Запазени са компактните LED цифри и метеорологичната визуализация. Smart Forecast 2.0 остава в отделен ред с пренасяне на дълги предупреждения. Официална подписана актуализация, без деинсталиране и без загуба на настройки.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.48-official/Aurora-Premium-1.2.48-TightForecastSafe-SIGNED.apk"
+  "versionCode": 130,
+  "versionName": "1.2.49",
+  "notes": "Aurora Premium 1.2.49 — обща актуализация: Smart Forecast 2.1 с меню за демонстрация на предупрежденията и бутон „Край на теста“; Flip Clock Pro с деликатни отражения и сенки; Weather Diagnostics с ръчна проверка на текущото време и Google Weather Hourly. Запазени са настройките, другите часовници, празничните ефекти и Pixel Shift. Официален подписан APK за инсталиране върху наличната версия.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.2.49-official/Aurora-Premium-1.2.49-SmartForecastFlipDiagnostics-SIGNED.apk"
 }
