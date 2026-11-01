@@ -1,6 +1,6 @@
 {
-  "versionCode": 132,
-  "versionName": "1.3.0",
-  "notes": "Aurora Premium 1.3.0 — една обща актуализация: Smart Forecast 3.0 с по-интелигентни предупреждения; OLED Smart Protection с вечерно/нощно затъмняване; Weather Icons Ultra с реалистичен дъжд и кристален сняг; Flip Clock Ultra Realism; Digital Satin Light и Crystal Depth за електронния часовник. Запазени са режимите и подобренията от 1.2.50, настройките, позицията, температурата, празниците, Smart Forecast тестовете и Pixel Shift. Един официално подписан APK за обновяване върху наличната Aurora Premium.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.0-official/Aurora-Premium-1.3.0-Unified-SIGNED.apk"
+  "versionCode": 133,
+  "versionName": "1.3.1",
+  "notes": "Aurora Premium 1.3.1 — обща подписана актуализация: три нови цвята за Digital Premium (Pure White, Pearl Ice White и Aurora Cyan), Smart Forecast 3.0+ с прогнози за вероятен или интензивен дъжд, сняг, студ, силен вятър, гръмотевици, мъгла и жега; без излишен надпис за текущ дъжд. Добавен отделен тест за интензивен дъжд. Запазени са OLED Smart Protection, Weather Icons Ultra, Flip Clock Ultra Realism, Satin Light, Crystal Depth, празници, настройки, позициониране и Pixel Shift. Официален APK с оригиналния сертификат, versionCode 133.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.1-official/Aurora-Premium-1.3.1-Unified-SIGNED.apk"
 }
