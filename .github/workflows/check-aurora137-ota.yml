@@ -21,6 +21,9 @@ jobs:
           import json,time,urllib.request
           from pathlib import Path
           current=json.loads(Path("manifest.json").read_text(encoding="utf-8"))
+          if current.get("versionCode",0)>139:
+            print("SKIP: Aurora 1.3.7 historical check, newer version already active")
+            raise SystemExit(0)
           name="Aurora-Premium-1.3.7-Official-SIGNED.apk"
           url="https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.7-official/"+name
           digest="sha256:78d4f54c32ab5d6f8b15976d568de7a3e9dcb852d9e827ded49fd1a5b7f69723"
