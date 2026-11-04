@@ -1,6 +1,6 @@
 {
-  "versionCode": 137,
-  "versionName": "1.3.5",
-  "notes": "Aurora Premium 1.3.5 — Digital Premium: нов реалистичен LED дъжд с последователно падащи капки и LED снежинки с плавно, независимо движение. Запазени Pearl Ice White + Satin Light, Digital/Flip, LED Glow, OLED Smart Protection, Pixel Shift, Smart Forecast 4.0, Foreca Forecast/Nowcast, празници, позиции и настройки. Температурата остава приоритетно от метеостанция IRAZGR17 чрез Weather Underground с автоматичен резервен WeatherCloud. Оригинален подпис; versionCode 137.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.5-official/Aurora-Premium-1.3.5-LED-Rain-Snow-SIGNED.apk"
+  "versionCode": 138,
+  "versionName": "1.3.6",
+  "notes": "Aurora Premium 1.3.6 — шест подобрения: Weather Animations Ultra 2.0 (плавен LED дъжд/сняг с три степени), Smart Station Monitor (източник и свежест на данните), Smart Forecast 4.1 (по-малко повтарящи се предупреждения), Digital Premium Animation Studio (офлайн), Christmas Garland Premium (Празничен Premium + два ръчни стила), пет различни празнични изображения с автоматична смяна на 1–23, 24–26, 27–30, 31 декември и 1 януари, с правилни надписи и новогодишни фойерверки. Запазени Pearl Ice White, Satin Light, OLED Smart Protection, Flip часовник, позиции и настройки. Температура от лична станция IRAZGR17 чрез Weather Underground с резервен WeatherCloud; прогнози Foreca. Оригинален сертификат, versionCode 138.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.6-official/Aurora-Premium-1.3.6-Official-SIGNED.apk"
 }
