@@ -1,6 +1,6 @@
 {
-  "versionCode": 139,
-  "versionName": "1.3.7",
-  "notes": "Aurora Premium 1.3.7 — възстановени всички 9 LED дъждовни капки в три реда при слаб, умерен и силен дъжд, без да се губят новото движение надолу и плавната скорост на Weather Animations Ultra 2.0. Запазени анимираният сняг, Smart Forecast 4.1, Smart Station Monitor, Digital Premium Animation Studio, петте празнични изображения, Christmas Garland Premium, Pearl Ice White, Satin Light, Flip Premium и OLED Smart Protection. Прогноза Foreca; температура от личната станция чрез Weather Underground (основен) и WeatherCloud (резервен). Оригинален сертификат, versionCode 139.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.7-official/Aurora-Premium-1.3.7-Official-SIGNED.apk"
+  "versionCode": 140,
+  "versionName": "1.3.8",
+  "notes": "Aurora Premium 1.3.8 — върнати оригиналните малки, нежни коледни SVG илюстрации от версия 1.3.5 вместо големите изображения. Поправено е показването на украса и „Весели празници!“ от 27 до 30 декември. Запазени са поздравите на 31 декември и 1 януари и фините новогодишни фойерверки. Не се променят LED дъждът и снегът, Flip/Digital часовникът, Smart Forecast 4.1, Foreca и температурните данни от Weather Underground с резервен WeatherCloud. Подписана с оригиналния сертификат, versionCode 140.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.8-official/Aurora-Premium-1.3.8-Official-SIGNED.apk"
 }
