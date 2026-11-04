@@ -1,9 +1,6 @@
 name: Validate live Aurora Premium 1.3.5 official LED-weather OTA
+# Historical 1.3.5 release verification: keep available manually, no longer validate latest 1.3.6 manifest.
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'manifest.json'
   workflow_dispatch:
 permissions:
   contents: read
