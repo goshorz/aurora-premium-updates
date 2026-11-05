@@ -1,6 +1,6 @@
 {
-  "versionCode": 144,
-  "versionName": "1.3.12",
-  "notes": "Aurora Premium 1.3.12 — Moon Final Polish. По-тънка и елегантна LED луна: по-фин външен полумесец, затъмнена вътрешна дъга, много малко нежни вътрешни точки, заострени върхове и олекотен долен край. Прегледани са останалите LED метеорологични икони. Запазени са 9-те анимирани дъждовни капки, 3-те снежинки, всички осем цвята, общото оцветяване на часовник/дата/температура/икона, Satin Light и Crystal Depth, позицията и размерите. Flip Clock, OLED Smart Protection, Smart Forecast, Foreca и метеостанцията Weather Underground с резервен WeatherCloud, както и празничната украса остават без промяна. Подписана с оригиналния сертификат (versionCode 144).",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.12-official/Aurora-Premium-1.3.12-Official-SIGNED.apk"
+  "versionCode": 145,
+  "versionName": "1.3.13",
+  "notes": "Aurora Premium 1.3.13 — True LED Crescent. Луната в Digital Premium вече се изгражда от един истински, плавно запълнен LED сърп, а не от две отделни С-образни дъги. Изчистени заострени върхове и естествена форма с меко сияние в избрания цвят. Запазени са всичките 8 цветови палитри, позицията и размерите на часовника, температурният дисплей, LED слънцето, облаците, частичната облачност, мъглата и бурята, както и 9-те последователно анимирани капки за дъжд и трите снежинки. Без промяна в Flip Clock, Satin Light, Crystal Depth, Smart Forecast, OLED Smart Protection, Foreca и температурата от Weather Underground с резервен WeatherCloud, както и в празничната украса. Подписан APK с оригиналния сертификат, versionCode 145; актуализация върху 1.3.12 със запазени настройки.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.13-official/Aurora-Premium-1.3.13-Official-SIGNED.apk"
 }
