@@ -1,6 +1,6 @@
 {
-  "versionCode": 141,
-  "versionName": "1.3.9",
-  "notes": "Aurora Premium 1.3.9 — две нови премиум цветови опции за Digital Premium: Champagne Gold (#F3D9AC) и Rose Platinum (#DFB9C0), като се запазват всичките шест досегашни цвята. При Pearl Ice White, Champagne Gold и Rose Platinum часът, датата, температурата и тенденцията използват единен нюанс с Satin Light. Запазени са оригиналните нежни коледни изображения, поздравите и украсата от 27 до 30 декември, както и всичките 9 анимирани LED дъждовни капки. Без промени в Flip Clock, Smart Forecast 4.1, OLED защита, Foreca, основния източник Weather Underground и резервния WeatherCloud. Подписана с оригиналния сертификат, versionCode 141.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.9-official/Aurora-Premium-1.3.9-Official-SIGNED.apk"
+  "versionCode": 142,
+  "versionName": "1.3.10",
+  "notes": "Aurora Premium 1.3.10 — поправен цветът на LED иконата за времето при Digital Premium. Сега часовникът, датата, температурата, стрелката и метеорологичната икона следват един и същ избран нюанс във всичките 8 цветови опции (вкл. Pearl Ice White, Champagne Gold и Rose Platinum). Запазени са анимациите на 9-те дъждовни LED капки и снега, Satin Light, Crystal Depth, нежните оригинални коледни изображения, Smart Forecast 4.1, Flip Clock, OLED защитата, Foreca и температурата от Weather Underground (резервен WeatherCloud). Подписана с оригиналния сертификат, versionCode 142.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.10-official/Aurora-Premium-1.3.10-Official-SIGNED.apk"
 }
