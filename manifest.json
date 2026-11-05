@@ -1,6 +1,6 @@
 {
-  "versionCode": 143,
-  "versionName": "1.3.11",
-  "notes": "Aurora Premium 1.3.11 — LED Weather Icons Ultra Refresh. Изцяло преработени SVG LED силуети за Digital Premium: елегантен полумесец с два ясно оформени върха и меко сияние, симетрично слънце, облаци, дневна/нощна частична облачност, ясна светкавица и три реда LED мъгла. Запазени деветте анимирани капки дъжд (3×3), трите снежинки, анимациите, всички 8 цвята и съвпадението на цвета на иконата с часовника, датата и температурата. Без промени в Flip Clock, Satin Light, Crystal Depth, OLED Smart Protection, Smart Forecast, нежната коледна украса, Foreca и температурата от Weather Underground с резервен WeatherCloud. Подписана с оригиналния сертификат, versionCode 143.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.11-official/Aurora-Premium-1.3.11-Official-SIGNED.apk"
+  "versionCode": 144,
+  "versionName": "1.3.12",
+  "notes": "Aurora Premium 1.3.12 — Moon Final Polish. По-тънка и елегантна LED луна: по-фин външен полумесец, затъмнена вътрешна дъга, много малко нежни вътрешни точки, заострени върхове и олекотен долен край. Прегледани са останалите LED метеорологични икони. Запазени са 9-те анимирани дъждовни капки, 3-те снежинки, всички осем цвята, общото оцветяване на часовник/дата/температура/икона, Satin Light и Crystal Depth, позицията и размерите. Flip Clock, OLED Smart Protection, Smart Forecast, Foreca и метеостанцията Weather Underground с резервен WeatherCloud, както и празничната украса остават без промяна. Подписана с оригиналния сертификат (versionCode 144).",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.12-official/Aurora-Premium-1.3.12-Official-SIGNED.apk"
 }
