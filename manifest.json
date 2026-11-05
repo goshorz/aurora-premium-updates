@@ -1,6 +1,6 @@
 {
-  "versionCode": 140,
-  "versionName": "1.3.8",
-  "notes": "Aurora Premium 1.3.8 — върнати оригиналните малки, нежни коледни SVG илюстрации от версия 1.3.5 вместо големите изображения. Поправено е показването на украса и „Весели празници!“ от 27 до 30 декември. Запазени са поздравите на 31 декември и 1 януари и фините новогодишни фойерверки. Не се променят LED дъждът и снегът, Flip/Digital часовникът, Smart Forecast 4.1, Foreca и температурните данни от Weather Underground с резервен WeatherCloud. Подписана с оригиналния сертификат, versionCode 140.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.8-official/Aurora-Premium-1.3.8-Official-SIGNED.apk"
+  "versionCode": 141,
+  "versionName": "1.3.9",
+  "notes": "Aurora Premium 1.3.9 — две нови премиум цветови опции за Digital Premium: Champagne Gold (#F3D9AC) и Rose Platinum (#DFB9C0), като се запазват всичките шест досегашни цвята. При Pearl Ice White, Champagne Gold и Rose Platinum часът, датата, температурата и тенденцията използват единен нюанс с Satin Light. Запазени са оригиналните нежни коледни изображения, поздравите и украсата от 27 до 30 декември, както и всичките 9 анимирани LED дъждовни капки. Без промени в Flip Clock, Smart Forecast 4.1, OLED защита, Foreca, основния източник Weather Underground и резервния WeatherCloud. Подписана с оригиналния сертификат, versionCode 141.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.9-official/Aurora-Premium-1.3.9-Official-SIGNED.apk"
 }
