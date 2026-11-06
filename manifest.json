@@ -1,6 +1,6 @@
 {
-  "versionCode": 146,
-  "versionName": "1.3.14",
-  "notes": "Aurora Premium 1.3.14 — по-елегантен LED полумесец с плавно оформени върхове. Smart Forecast 4.1: премахнати излишните тройни обновявания при настройка; диагностика за Foreca Hourly и двата Nowcast източника, Cinema Mode и остарели данни. Проверени са живите източници: данните са налични; при спокойно време няма предупреждение. Запазени са всички 8 цвята, LED капките и снегът, Flip Clock, OLED, празничната украса, Foreca и личната температура от WU с резервен WeatherCloud. Оригинален подпис, versionCode 146, настройки запазени.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.14-official/Aurora-Premium-1.3.14-Official-SIGNED.apk"
+  "versionCode": 147,
+  "versionName": "1.3.15",
+  "notes": "Aurora Premium 1.3.15 — Cloud LED Gap Hotfix. Поправено е липсващо LED диодче в долния ляв край на облака: равномерно затворен контур без прекъсване при облачно време, частична облачност ден/нощ, дъжд, сняг, буря и мъгла. Запазени са размерите и позицията на часовника, 8-те цветови палитри, всички анимации (9 капки дъжд и 3 снежинки), преработената луна, Flip Clock, Smart Forecast 4.1, OLED защитата, Foreca, Weather Underground с резервен WeatherCloud и празничните теми. Оригинален производствен подпис, versionCode 147, актуализация върху 1.3.14 със запазени настройки.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.15-official/Aurora-Premium-1.3.15-Official-SIGNED.apk"
 }
