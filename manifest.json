@@ -1,6 +1,6 @@
 {
-  "versionCode": 157,
-  "versionName": "1.3.25",
-  "notes": "Aurora Premium 1.3.25 — две фини нощни подобрения само в Aurora Signature. При ясно време около плътния лунен сърп има три нежни звездички, които примигват последователно, когато анимациите са включени; при изключено движение или системна настройка за намалена анимация звездите остават неподвижни. При нощна променлива облачност тънкият полумесец е преместен горе вляво зад облака, както стои слънцето при дневна променлива облачност. Дневното слънце, всички останали икони и анимации, Animation Studio, Digital Premium, Flip Clock, Smart Forecast 4.1, Foreca, температурата от личната станция през Weather Underground с резервен WeatherCloud, OLED Smart Protection и празничните теми остават непроменени. Официален подписан APK; актуализация върху 1.3.24 без деинсталиране и без загуба на настройки.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.25-official/Aurora-Premium-1.3.25-Official-SIGNED.apk"
+  "versionCode": 158,
+  "versionName": "1.3.26",
+  "notes": "Aurora Premium 1.3.26 — корекция на иконата за променлива облачност през нощта в Aurora Signature. Луната остава горе вляво от облака и вече е с цял, непрекъснат контур, без „отхапана“ или изрязана част: премахнато е нежеланото изрязване от SVG маската. Ясната нощ с примигващите звездички, дневното слънце, останалите метеорологични икони и анимации, Animation Studio, Digital Premium, Flip Clock, Smart Forecast 4.1, Foreca, WUnderground/WeatherCloud, OLED Smart Protection и празничните ефекти остават непроменени. Официален APK с оригиналния подпис, инсталира се като актуализация върху 1.3.25 със запазване на настройките.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.26-official/Aurora-Premium-1.3.26-Official-SIGNED.apk"
 }
