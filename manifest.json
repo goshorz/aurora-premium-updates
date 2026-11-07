@@ -1,6 +1,6 @@
 {
-  "versionCode": 150,
-  "versionName": "1.3.18",
-  "notes": "Aurora Premium 1.3.18 — одобрена нова LED луна с облаче, пренесена от избрания визуален образец: 61 LED точки за луната и 51 точки за облака, с еднаква рисунка в двата Digital модула и без деформирана C-образна или роговидна форма. Проверени са всички метеорологични икони в 210 комбинации ден/нощ, 240 комбинации на часа, цветовете и анимациите. Запазени са 9 дъждовни капки, 3 LED снежинки, Pearl Ice White, Satin Light, Flip Clock, Smart Forecast 4.1, Foreca, температурата от Weather Underground с резервен WeatherCloud, OLED Smart Protection и празничните теми. Подписан с оригиналния сертификат; OTA актуализация от 1.3.17 без деинсталиране и със запазени настройки.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.18-official/Aurora-Premium-1.3.18-Official-SIGNED.apk"
+  "versionCode": 151,
+  "versionName": "1.3.19",
+  "notes": "Aurora Premium 1.3.19 — финално фино изглаждане на луната с облаче. Запазена е одобрената форма: всички 61 LED координати на луната и 51 координати на облачето остават същите. Лунните точки в по-плътните участъци са малко по-фини, със смекчено сияние и плавни краища; облачето и останалият интерфейс са непроменени. Запазени са Digital Premium, Pearl Ice White, Satin Light, Flip Clock, 9 дъждовни капки, 3 LED снежинки, Smart Forecast 4.1, Foreca, температура от Weather Underground с резервен WeatherCloud, OLED Smart Protection, празничните теми и настройките. Подписан с оригиналния сертификат и проверен APK за актуализация от 1.3.18 без деинсталиране.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.19-official/Aurora-Premium-1.3.19-Official-SIGNED.apk"
 }
