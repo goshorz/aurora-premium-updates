@@ -1,6 +1,6 @@
 {
-  "versionCode": 147,
-  "versionName": "1.3.15",
-  "notes": "Aurora Premium 1.3.15 — Cloud LED Gap Hotfix. Поправено е липсващо LED диодче в долния ляв край на облака: равномерно затворен контур без прекъсване при облачно време, частична облачност ден/нощ, дъжд, сняг, буря и мъгла. Запазени са размерите и позицията на часовника, 8-те цветови палитри, всички анимации (9 капки дъжд и 3 снежинки), преработената луна, Flip Clock, Smart Forecast 4.1, OLED защитата, Foreca, Weather Underground с резервен WeatherCloud и празничните теми. Оригинален производствен подпис, versionCode 147, актуализация върху 1.3.14 със запазени настройки.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.15-official/Aurora-Premium-1.3.15-Official-SIGNED.apk"
+  "versionCode": 148,
+  "versionName": "1.3.16",
+  "notes": "Aurora Premium 1.3.16 — Precision Edition. Петте подобрения в една обща актуализация: деликатно стъклено LED оформление на сегментните цифри, по-четливи и равномерни точки в пълните български дни на седмицата, изчистено подравняване на всички метеорологични LED икони, по-добре подравнени температура, цифров °C и стрелка, и нежни еднократни анимации само при смяна на минута или времето. Луната с облаче е запълнен LED сърп, вместо стария C-образен контур, включително след прерисуване. Проверени са цифрите 0–9, седемте дни от седмицата и 56 дневни/нощни варианта за времето. Запазени са 9 дъждовни капки, 3 LED снежинки, 8-те цветови палитри, Pearl Ice White, Satin Light, Smart Forecast 4.1, Foreca, температурата от Weather Underground с резервен WeatherCloud, OLED Smart Protection, Flip Clock и празничните теми. Оригинално подписан APK, OTA над 1.3.15 със запазени настройки.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.16-official/Aurora-Premium-1.3.16-Official-SIGNED.apk"
 }
