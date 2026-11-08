@@ -1,6 +1,6 @@
 {
-  "versionCode": 165,
-  "versionName": "1.3.33",
-  "notes": "Aurora Premium 1.3.33 — финално изглаждане на Aurora Signature: горната звездичка е преместена малко наляво и нагоре, долната надясно и надолу, за да не докосват одобрения полумесец. Трите звездички и оригиналната им анимация остават запазени. При отрицателни температури в Aurora Signature знакът минус е отделен с още 2 px от първата цифра, без промяна в измерената стойност или източника. Няма промени в формата на луната, другите икони и стилове, Smart Forecast 4.1, Foreca, Weather Underground/WeatherCloud, OLED защитата и празничните ефекти. Оригинално подписана актуализация, без деинсталиране и без загуба на настройки. Наличен е резервен адрес за изтегляне.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.33-official/Aurora-Premium-1.3.33-Official-SIGNED.apk"
+  "versionCode": 166,
+  "versionName": "1.3.34",
+  "notes": "Aurora Premium 1.3.34 — последно козметично изглаждане на Aurora Signature: допълнително разстояние между отрицателния знак и първата цифра на температурата (общо 4 px вместо 2 px). Одобрената луна, трите звездички, позициите и анимацията им остават непроменени. Без промени по другите метеоикони, Digital Premium, Flip Clock, Smart Forecast 4.1, Foreca, Weather Underground с резервен WeatherCloud, OLED защитата и празничните ефекти. Подписано с оригиналния сертификат; инсталиране върху съществуващото приложение без деинсталиране. Наличен е резервен публичен адрес за изтегляне.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.34-official/Aurora-Premium-1.3.34-Official-SIGNED.apk"
 }
