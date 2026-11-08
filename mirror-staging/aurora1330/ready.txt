@@ -1,0 +1,10 @@
+Aurora Premium 1.3.30 verified Pages mirror release gate
+sourceRepo=goshorz/Aurora-Preview
+sourceCommit=1edd055eb3cea3cd7c4dc9563a85496ccb3aff29
+versionName=1.3.30
+versionCode=162
+package=bg.razgrad.aurorapremium
+bytes=2311561
+sha256=79e3ddc7100762876acf6b4580dbf7250c9f44a27793e8316622f7110058b937
+signingFingerprint=10efc5ad6c3b56f549ac78d571876ea1a102594958cd6b9660486f0954202ab7
+proof=all 26 signed segments and metadata staged, original certificate verified by build/release pipelines
