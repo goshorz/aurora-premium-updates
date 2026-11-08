@@ -1,0 +1,1 @@
+versionName=1.3.29 versionCode=161 package=bg.razgrad.aurorapremium signingFingerprint=10efc5ad6c3b56f549ac78d571876ea1a102594958cd6b9660486f0954202ab7
