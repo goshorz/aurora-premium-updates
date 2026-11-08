@@ -1,6 +1,6 @@
 {
-  "versionCode": 162,
-  "versionName": "1.3.30",
-  "notes": "Aurora Premium 1.3.30 — преработен сърп при ясно нощно време в Aurora Signature по снимката на часовника: по-фин горен край, по-елегантна извивка и мек сребристо-лавандулов цвят. Оригиналните три звездички и плавното им примигване са запазени без промяна. Запазени са нощната променлива облачност, дневното слънце и останалите анимирани икони, часовникът, датата, температурата, Digital Premium, Flip Clock, Smart Forecast 4.1, Foreca, Weather Underground с резервен WeatherCloud, OLED защитата и празничните ефекти. Изтеглянето разполага с резервен GitHub Pages адрес. Подписано с оригиналния сертификат; актуализация без деинсталиране и без загуба на настройки.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.30-official/Aurora-Premium-1.3.30-Official-SIGNED.apk"
+  "versionCode": 163,
+  "versionName": "1.3.31",
+  "notes": "Aurora Premium 1.3.31 — Aurora Signature: нова кръгла луна с мек перлен релеф при ясно нощно време, вместо предишния сърп. Трите оригинални звездички и плавното им примигване са запазени. Без промяна при променлива облачност, дневното слънце, останалите анимирани икони и подредбата на часовника, датата и температурата. Запазени са Digital Premium, Flip Clock, Smart Forecast 4.1, Foreca, Weather Underground с резервен WeatherCloud, OLED защитата и празничните ефекти. Подписано с оригиналния сертификат; актуализация без деинсталиране и без загуба на настройки. Наличен е резервен адрес за директно изтегляне.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.31-official/Aurora-Premium-1.3.31-Official-SIGNED.apk"
 }
