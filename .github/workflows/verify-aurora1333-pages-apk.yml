@@ -1,0 +1,38 @@
+name: Verify Aurora 1.3.33 alternate Pages APK download
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-aurora1333-pages-apk.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Verify public GitHub Pages signed APK with retries
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL='https://goshorz.github.io/aurora-premium-updates/downloads/Aurora-Premium-1.3.33-Official-SIGNED.apk'
+          for n in $(seq 1 24); do
+            rm -f mirror.apk
+            if curl -fL --silent --show-error --connect-timeout 8 --max-time 17 \
+                 --user-agent 'Aurora-Pages-APK-Verification/1.3.33' \
+                 --output mirror.apk "$URL?check=$n"; then
+              if [ "$(stat -c %s mirror.apk)" -eq 2312201 ] && \
+                 echo '8fceb3c3b84f77735853f32f82f373c28eefef671082cdebcc3759eb08f288e9  mirror.apk' | sha256sum --check; then
+                echo "PASS: downloaded signed APK from public GitHub Pages URL: $URL"
+                exit 0
+              fi
+            fi
+            echo "Pages APK propagation attempt $n/24"
+            sleep 8
+          done
+          echo 'ERROR: public Pages binary not yet accessible or hash differs'
+          exit 1
