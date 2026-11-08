@@ -1,0 +1,49 @@
+name: Publish signed Aurora Premium 1.3.29 direct-download mirror
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'mirror-staging/aurora1329/ready.txt'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aurora1329-pages-mirror-publish
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reconstruct and verify signed production APK before publishing
+        shell: bash
+        run: |
+          set -euo pipefail
+          DIR='mirror-staging/aurora1329'
+          NAME='Aurora-Premium-1.3.29-Official-SIGNED.apk'
+          test -s "$DIR/sha256.txt"
+          test -s "$DIR/bytes.txt"
+          test "$(find "$DIR" -name 'part-*' | wc -l)" -ge 20
+          mkdir -p downloads
+          cat "$DIR"/part-* | base64 --decode > "downloads/$NAME"
+          echo "$(cat "$DIR/sha256.txt")  downloads/$NAME" | sha256sum --check
+          test "$(stat -c %s "downloads/$NAME")" -eq "$(cat "$DIR/bytes.txt")"
+          "$ANDROID_HOME/build-tools/35.0.0/aapt" dump badging "downloads/$NAME" | grep '^package:' | tee mirror-package.txt
+          grep -q "name='bg.razgrad.aurorapremium'" mirror-package.txt
+          grep -q "versionCode='161'" mirror-package.txt
+          grep -q "versionName='1.3.29'" mirror-package.txt
+          "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose --print-certs "downloads/$NAME" > mirror-signature.txt
+          grep -qi '10efc5ad6c3b56f549ac78d571876ea1a102594958cd6b9660486f0954202ab7' mirror-signature.txt
+      - name: Publish immutable file to Github Pages main branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add downloads/Aurora-Premium-1.3.29-Official-SIGNED.apk
+          git commit -m 'mirror: verified Aurora Premium 1.3.29 official signed APK'
+          git push origin HEAD:main
+          echo 'GitHub Pages mirror now contains the exact signed official APK.'
