@@ -1,0 +1,10 @@
+Aurora Premium 1.3.29 public GitHub Pages mirror gate
+sourceRepo=goshorz/Aurora-Preview
+sourceCommit=6a275e32d9da3d0954d6535c92d998777110c9ba
+versionName=1.3.29
+versionCode=161
+package=bg.razgrad.aurorapremium
+bytes=2311525
+sha256=77eeccc19f065217feb6576b76ba10b107fe80e115ab51dd06d744e3bb409265
+signingFingerprint=10efc5ad6c3b56f549ac78d571876ea1a102594958cd6b9660486f0954202ab7
+asset=downloads/Aurora-Premium-1.3.29-Official-SIGNED.apk
