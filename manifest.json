@@ -1,6 +1,6 @@
 {
-  "versionCode": 166,
-  "versionName": "1.3.34",
-  "notes": "Aurora Premium 1.3.34 — последно козметично изглаждане на Aurora Signature: допълнително разстояние между отрицателния знак и първата цифра на температурата (общо 4 px вместо 2 px). Одобрената луна, трите звездички, позициите и анимацията им остават непроменени. Без промени по другите метеоикони, Digital Premium, Flip Clock, Smart Forecast 4.1, Foreca, Weather Underground с резервен WeatherCloud, OLED защитата и празничните ефекти. Подписано с оригиналния сертификат; инсталиране върху съществуващото приложение без деинсталиране. Наличен е резервен публичен адрес за изтегляне.",
-  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.34-official/Aurora-Premium-1.3.34-Official-SIGNED.apk"
+  "versionCode": 167,
+  "versionName": "1.3.35",
+  "notes": "Aurora Premium 1.3.35 — два нови самостоятелни стила на часовника в меню Настройки: Aurora Horizon (платинено сребро, прозрачен хронографски циферблат и модерни цифри) и Aurora Atelier (шампанско злато, класически луксозен циферблат). Двата стила използват съществуващите реални час, дата, метеорологични данни, измерена температура, анимираните векторни икони и Smart Forecast. Създадени са за компактния прозрачен телевизионен панел и са налични за демонстрация в Animation Studio. Одобреният Aurora Signature остава непроменен, както и Flip Premium, Digital Premium, цветовете, метеостанцията Weather Underground и резервният WeatherCloud, Foreca, OLED защита и останалите анимации. APK е подписан с оригиналния сертификат и може да се актуализира без деинсталиране.",
+  "downloadUrl": "https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.35-official/Aurora-Premium-1.3.35-Official-SIGNED.apk"
 }
