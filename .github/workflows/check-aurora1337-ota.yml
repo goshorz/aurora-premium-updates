@@ -24,10 +24,10 @@ jobs:
           import json, time, urllib.request
           from pathlib import Path
           data=json.loads(Path('manifest.json').read_text(encoding='utf-8'))
-          if int(data.get('versionCode',0))>168:
+          if int(data.get('versionCode',0))>169:
               print('SKIP: a newer Aurora version is already published')
               raise SystemExit(0)
-          assert data['versionCode']==168, data
+          assert data['versionCode']==169, data
           assert data['versionName']=='1.3.37'
           expected_url='https://github.com/goshorz/aurora-premium-releases/releases/download/v1.3.37-official/Aurora-Premium-1.3.37-Official-SIGNED.apk'
           assert data['downloadUrl']==expected_url
@@ -49,7 +49,7 @@ jobs:
                       headers={'Cache-Control':'no-cache','User-Agent':'Aurora-OTA-1337-Verification'})
                   with urllib.request.urlopen(req,timeout=15) as response:
                       served=json.load(response)
-                  assert served.get('versionCode')==168,served
+                  assert served.get('versionCode')==169,served
                   assert served.get('versionName')=='1.3.37',served
                   assert served.get('downloadUrl')==expected_url,served
                   print('PASS: LIVE Aurora 1.3.37 OTA manifest verified')
