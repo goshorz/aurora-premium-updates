@@ -1,0 +1,66 @@
+name: Publish Aurora Premium 1.3.37 verified GitHub Pages mirror
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-aurora1337-mirror.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: aurora1337-pages-mirror-publish
+  cancel-in-progress: false
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retrieve immutable signed bytes from public official release source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth 1 https://github.com/goshorz/aurora-premium-releases.git /tmp/aurora-releases
+          DIR='/tmp/aurora-releases/incoming/aurora1337'
+          NAME='Aurora-Premium-1.3.37-Official-SIGNED.apk'
+          test "$(find "$DIR" -name 'part-*' | wc -l)" -eq 26
+          test "$(cat "$DIR/sha256.txt")" = '2fe67b037d6cb8736d2cbb2ab743dfc97c4097e5d2d6b031020a5b984b2a73ef'
+          test "$(cat "$DIR/bytes.txt")" = '2321853'
+          mkdir -p downloads
+          cat "$DIR"/part-* | base64 --decode > "downloads/$NAME"
+          echo '2fe67b037d6cb8736d2cbb2ab743dfc97c4097e5d2d6b031020a5b984b2a73ef  downloads/Aurora-Premium-1.3.37-Official-SIGNED.apk' | sha256sum --check
+          test "$(stat -c %s "downloads/$NAME")" -eq 2321853
+      - name: Verify exact package version and original signing certificate
+        shell: bash
+        run: |
+          set -euo pipefail
+          APK='downloads/Aurora-Premium-1.3.37-Official-SIGNED.apk'
+          "$ANDROID_HOME/build-tools/35.0.0/aapt" dump badging "$APK" | grep '^package:' > mirror-package.txt
+          grep -q "name='bg.razgrad.aurorapremium'" mirror-package.txt
+          grep -q "versionCode='169'" mirror-package.txt
+          grep -q "versionName='1.3.37'" mirror-package.txt
+          "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose --print-certs "$APK" > mirror-signature.txt
+          grep -qi '10efc5ad6c3b56f549ac78d571876ea1a102594958cd6b9660486f0954202ab7' mirror-signature.txt
+          "$ANDROID_HOME/build-tools/35.0.0/zipalign" -c -v 4 "$APK"
+      - name: Publish signed APK as direct GitHub Pages fallback
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add downloads/Aurora-Premium-1.3.37-Official-SIGNED.apk
+          git commit -m 'mirror: publish independently verified Aurora Premium 1.3.37 official signed APK'
+          # This repository may receive validation-workflow commits while the
+          # signed APK is being verified. Rebase safely before a fast-forward push.
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo 'Verified signed Pages APK published successfully.'
+              exit 0
+            fi
+            echo "Concurrent main update; retrying mirror publication ${attempt}/4"
+            sleep 3
+          done
+          echo 'Unable to publish verified mirror after safe retries' >&2
+          exit 1
