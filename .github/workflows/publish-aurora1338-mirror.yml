@@ -37,7 +37,7 @@ jobs:
           APK='downloads/Aurora-Premium-1.3.38-Official-SIGNED.apk'
           "$ANDROID_HOME/build-tools/35.0.0/aapt" dump badging "$APK" | grep '^package:' > mirror-package.txt
           grep -q "name='bg.razgrad.aurorapremium'" mirror-package.txt
-          grep -q "versionCode='169'" mirror-package.txt
+          grep -q "versionCode='170'" mirror-package.txt
           grep -q "versionName='1.3.38'" mirror-package.txt
           "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose --print-certs "$APK" > mirror-signature.txt
           grep -qi '10efc5ad6c3b56f549ac78d571876ea1a102594958cd6b9660486f0954202ab7' mirror-signature.txt
